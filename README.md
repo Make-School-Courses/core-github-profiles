@@ -1,146 +1,103 @@
-# React Native - Class 6
+# Core Github Profiles 
 
-Build for native with React using JavaScript!
+Your GitHub profile is important it's likely the first place a recruiter will look to 
+learn more about you. 
 
-- https://facebook.github.io/react-native/docs/getting-started.html
+It needs to express your ability clearly and honestly.
 
-## Activity 
+Your profile not only shows the code you have created it shows how you create code and 
+how you work. 
 
-- Install React Native command line tool
-- Create React native project
-- Review fundamental concepts
-  - Testing React Native Projects 
-  - Native Components
-  - Stlying Native Components
+Making a good profile that impresses people will take time and effort. 
 
-## Objectives  
+Your GitHub profile will get you hired. It's the most important evidence of your 
+ability.
 
-- Intall React native Command Line tool
-- Create React Natiev test project
-- Run the React Native Project in the Simulator
-- Install Expo 
-- Run the React Native Project on a real device
-- Styling native components
+## What does an Amazing GitHub profile look like? 
 
-## Challenges 
+With a partner examine some profiles here: 
 
-- Install React Native Command Line Tool
-- Create a new React Native Project
-- Mock up the weather app in react native
-  - Your app displays the information supplied in the weather object
-  - Your app layout the information in the same arrangement as the mock up images
-- Run your project in the iOS simulator on your laptop or desktop computer
-- Install the expo app on your Mobile device
-- Run your React Native project on your mobile device with Expo
-- Stretch Goal: Download Android Studio
-  - Run your React Project in the Android Simulator on your laptop or desktop
-- Stretch Goal: Run your project in Expo on both an Android and iOS device
+https://gist.github.com/paulmillr/2657075/
 
-### The first project
+Examine these GitHub profiles closely. 
 
+- Look at the profile page. 
+  - Repositories, stars, Followers
+  - organizations, profile image, location
+  - Popular repos
+    - Read the description
+  - Contributions
+- Examine a repos
+  - Look at commits and branches
+  - Look at the README, read it. 
+  - What kind of project are they working on?
+  - How many releases?
+  
+## What can you do to improve your GitHub profile
 
-## Notes
+- Add your location information. Recruiters use search tools and filter out profiles based on 
+location. Having this information on your profile makes it easy for them to find you.
+- Commit often. It’s nice to have those little green squares show up on your profile. 
+ - Don't manipulate to get them your commit history. It’s easy to figure out and if 
+ someone sees it, you will be rejected.
+- Make clean commit messages. It’s easy to have commit messages like “pleaseeee work”, “@#$%”, 
+etc. Don’t do that. Show your profesionalism in your Github profile.
+- Have awesome (formatted) documentation for _all_ your projects. 
+  - Include plenty of usage examples. 
+  - Include installation instructions (a demo/screenshot is a huge bonus). When recruiters are going 
+through your profile, they will not have time to figure out how to run your. 
+- If you want others to contribute to your project, have clear contributing guidelines. 
+  - Include a License. 
+  - If you are welcoming contributions, a blog post explaining the design decisions or a simple 
+  overview is very helpful!
+- Add description and tags for your projects.
+- use Github Pages to create a site for your project, or create links to your GitHub and the project 
+on your portfolio site. 
+  - Add GitHub links to your Make School Portfolio. 
+- There are many Github integrations available (like Travis CI, etc).
+- Don’t fork repositories if you are not going to work on them. Cluttered profiles don’t make 
+anyone happy. If you like a project, please star it, not fork.
+- Contribute to open source projects. This shows that you can work well with 
+a community, you know how to dive into large codebases and can adapt to different coding 
+standards. Having pull requests/issues/reviews visible on your profile makes it a bit attractive.
+- Write clean code. Have a good project structure.
+  - Write tests.
 
-React Native creates a *truly native* projects that run on React. These are *not*
-hybrid HTML apps. 
+After reading the list above look at your GitHub profile and find three things you 
+can do improve it today.
 
-As native apps they make use of many of the built in UI objects. As such 
-many of the HTML elements are replaced with a native equivalent. Even though
-the elements are different they are still implemented in the same way. 
+Suggestions: 
 
-For example the following are not available. 
+- Add missing README
+- Fill in missing profile information
+- Cull forked repos you are not contributing to (star these instead)
+- Sort and filter pinned repos
+- Improve the descriptions of pinned repos
+- Create or join a GitHub Organization
+- Find a project to contribute to
+- Find projects to star
+- Release a finished project
+- Add tags to project (read about tags here: https://git-scm.com/book/en/v2/Git-Basics-Tagging#_lightweight_tags)
 
-- div
-- h1-6 
-- input 
+## Review 
 
-Here are some of the component/tags available via the 'react-native' package. 
+Post a link to your GitHub on Slack. Review the GitHub link below your name. 
 
-- View
-- Text
-- ScrollView
-- ListView
-- Button
-- Image
-- ...
+Use the criteria above to create a meaningful list of areas of improvement. 
 
-Import these from the `react-native` package like this: 
+## Make a todo list
+ 
+Make a todo list of things you can do to improve your GitHub. 
 
-`import { Text, View } from 'react-native';`
+## What you should do as habit 
 
-Many global JavaScript methods like `fetch()` are available in React native also!
+Make a list of good GitHub habits that you can apply in the future. 
 
-### Styles 
+### Resources 
 
-Styles are handled a little differently. You will want to use the styled component
-strategy. That is place the styles within the component definition. 
-
-You'll need to make a styleSheet object with. Create a new stylesheet as a JavaScript 
-Object assigning style properties in camel case. Units are always points. React Native
-only supports a subset of the available CSS style properties and some of the values 
-differ. Be sure to consult the [docuementation](https://facebook.github.io/react-native/docs/style.html).
-
-```
-import { StyleSheet } from 'react-native'
-
-const styles = StyleSheet.create({
-    heading: {
-        color: 'red',
-        fontSize: 24
-    }
-});
-```
-
-Apply styles to any object like this: 
-
-`<Text style={styles.heading}>Hello World!</Text>`
-
-
-## General Debugging and logging
-
-React Native is using the simulator but not generally running in a development
-environment. Most the code is run via JS. This makes debugging a problem. 
-
-In the simulator use command+d to open the menu. Choose: Debug JS Remotely. 
-This will send console and error messages to Chrome. You'll need to open 
-Chrome and open the console. 
-
-Compilation errors will show in the simulator, while run time errors will
-end up in the console. 
-
-## Challenges
-
-- Follow the React-Native [getting started guide](https://facebook.github.io/react-native/docs/getting-started.html)
-    - Install React-Native and commandline tools. 
-    - Create a new project and run it.
-- React Native relies heavily on Flex Box for layout. Complete this tutorial. 
-  - [Flex box froggy tutorial](http://flexboxfroggy.com)
-- Use the the View and Text components to mock up the weather app.  
-    - Look at the mock up images. Your job is to recreate this.  
-    - You will need to use Flex box to set the layout. 
-    
-Your finished challenge should close to this. 
-
-![weather-mockup](weather-mockup.png)
-
-This is simple version shows generally how you might plan your layout. 
-
-![weather-mockup-wire-simple](weather-mockup-wire-simple.png)
-
-This is a more detailed version that shows how you might build this to get the 
-layout to more accurately match the mock up. 
-
-![weather-mockup-wire-simple](weather-mockup-wire-detailed.png)
-
-
-Class Schedule 
-
-|time  |     |Activity   |Description      |
-|------|-----|-----------|-----------------|
-| 5mins|5min |Talk       |Intro            |
-| 5mins|10min|Talk       |React Native Components |
-| 5mins|15min|Work       |Install React Native Tools |
-| 5mins|20min|Pair       |Create and Run a React Native Project |
-|10mins|30min|share      |Share Test ideas |
-|10mins|40min|We Do      |Set up Node, Mocha, Chai |
-|20mins|60min|I Do We Do |Mocha it() |
+https://gist.github.com/ndelage/7583138
+http://blog.gainlo.co/index.php/2015/11/13/how-to-make-github-as-your-new-resume/
+https://news.ycombinator.com/item?id=9680519
+https://techbeacon.com/what-do-job-seeking-developers-need-their-github
+https://code.bradymower.com/how-to-have-a-solid-github-profile-10ef0e1c4d0e
+https://www.reddit.com/r/learnprogramming/comments/364s62/could_someone_show_me_a_good_example_of_a_github/
